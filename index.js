@@ -63,7 +63,7 @@ function prepLogo(ans){
         };
       }
 //logo is created, write to file, end code
-      writeFile(`./examples/${ans.logoShape}.svg`, logoSvg, 
+      writeFile(`./My_Logos/${ans.logoShape}.svg`, logoSvg, 
                 console.log("logo created in folder 'My_Logos'."));  
   };
   
