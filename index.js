@@ -1,4 +1,3 @@
-const Shape = require('./lib/shapes')
 const {writeFile} = require('fs/promises');
 const inquirer = require('inquirer');
 const Triangle = require('./lib/Triangle');
